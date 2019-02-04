@@ -1,0 +1,89 @@
+#cguGroup{
+	color: #000000;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+.cguSize{
+	color: #000000;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+
+#cguTittle{
+	font-size: 2.3em;
+	margin: 30px 0 5px 0;
+	background-color: rgb(255, 194, 82);
+	font-weight: bold;
+	width: 100%;
+	padding: 10px;
+}
+
+.blackSecondTittle{
+
+	margin: 20px 0 20px 0;
+	width: 100%;
+	background-color: #000000;
+	color: white;
+	padding: 10px;
+	
+}
+
+.cguDot{
+	align-self: flex-start;
+	text-align: left;
+}
+
+.cguTexte{
+	text-align: justify;
+	justify-content: center;
+	margin: 0px 0 20px 0;
+}
+
+#lastCGUTexte{
+	margin: 0px 0 80px 0;
+	text-align: justify;
+	justify-content: center;
+}
+
+@media screen and (max-width: 1224px)
+{
+	#cguTittle{
+		font-size: 50px;
+	}
+
+	.blackSecondTittle{
+		font-size: 40px;
+	}
+
+	.cguTexte{
+		font-size: 28px;
+	}
+
+	.cguDot{
+		font-size: 28px;
+	}
+
+	#cguGroup{
+		width: 90%;
+	}
+
+	.cguSize{
+		width: 90%;
+	}
+
+	#lastCGUTexte{
+		font-size: 28px;
+	}
+
+}

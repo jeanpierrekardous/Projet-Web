@@ -1,0 +1,118 @@
+#contactBDE{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	color: #000000;
+	margin: 50px 0 50px 0;
+}
+#formContact{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid rgb(255, 194, 82);
+	width: 30%;
+	padding: 20px;
+	border-radius: 0 0 10px 10px;
+	align-items: center;
+	background-color: #E0E0DF;
+}
+#contactTittle{
+	background-color: rgb(255, 194, 82);
+	border-radius: 10px 10px 0 0;
+	padding: 22px;
+	margin: 0;
+	width: 30%;
+	font-size: 1.4em;
+	color: #ffffff;
+}
+#submit{
+	background-color: rgb(255, 194, 82);
+	color: white;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(255, 194, 82);
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.4em;
+}
+#submit:hover{
+	cursor: pointer;
+	background-color: rgb(260, 199, 0);
+}
+#email{
+	width: 80%;
+	height: 25px;
+	text-align: center;
+}
+#subject{
+	width: 80%;
+	height: 25px;
+}
+#contactMessage{
+	width: 80%;
+	height: 200px;
+	text-align: left;
+	vertical-align: text-top;
+}
+#formContact label{
+	margin: 10px 0 10px 0;
+}
+#contactTexte{
+	margin: 0;
+	border: 2px solid rgb(260, 199, 0);
+	border-radius: 0 0 10px 10px;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	align-items: center;
+	padding: 20px;
+}
+#filesFormuleText{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 66%;
+	text-align: center;
+}
+
+@media screen and (max-width: 1224px){
+
+	#contactTittle{
+		font-size: 50px;
+		width: 80%
+	}
+
+	#formContact{
+		width: 80%;
+	}
+
+	#email{
+		font-size: 28px;
+	}
+
+	#subject{
+		font-size: 28px;
+	}
+
+	#contactMessage{
+		font-size: 28px;
+	}
+
+	#submit{
+		font-size: 28px;
+		width: 200px;
+	}
+
+	#contactTexte{
+		font-size: 28px;
+	}
+
+}
